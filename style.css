@@ -1,41 +1,17 @@
-/* 设置横幅图片自动伸缩并铺满屏幕的宽度 */
-header {
-	background-image: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/azure-3d-hero-openai?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=2880');
-	background-size: cover;
-	background-position: center;
-	height: 300px;
+header img {
+    max-width: 100%;
+    max-height: 25%;
 }
 
-/* 设置主体部分的样式 */
-main {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	padding: 20px;
+.row {
+    display: flex;
 }
 
-.image {
-	width: 40%;
-	max-width: 300px;
-	margin: 20px;
-	text-align: center;
+.image-container {
+    width: 35%;
+    margin: 0 auto;
 }
 
-.image img {
-	max-width: 100%;
-	height: auto;
-}
-
-.image p {
-	margin: 10px 0;
-	font-size: 16px;
-	line-height: 1.2;
-}
-
-/* 设置页脚的样式 */
-footer {
-	background-color: #f2f2f2;
-	padding: 20px;
-	text-align: center;
+.image-container img {
+    max-width: 100%;
 }
