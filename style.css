@@ -1,30 +1,14 @@
-body {
-	font-family: Arial, sans-serif;
-	margin: 0;
-	padding: 0;
-}
-
+/* 设置横幅图片自动伸缩并铺满屏幕的宽度 */
 header {
-	background-color: #0078d4;
-	color: white;
-	padding: 20px;
+	background-image: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/azure-3d-hero-openai?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=2880');
+	background-size: cover;
+	background-position: center;
+	height: 300px;
 }
 
-header img {
-	float: left;
-	margin-right: 20px;
-	width: 60px;
-	height: 40px;
-}
-
-header h1 {
-	margin: 0;
-	font-size: 36px;
-	line-height: 1.2;
-}
-
+/* 设置主体部分的样式 */
 main {
-	display: flex
+	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
@@ -32,7 +16,8 @@ main {
 }
 
 .image {
-	width: 300px;
+	width: 40%;
+	max-width: 300px;
 	margin: 20px;
 	text-align: center;
 }
@@ -48,6 +33,7 @@ main {
 	line-height: 1.2;
 }
 
+/* 设置页脚的样式 */
 footer {
 	background-color: #f2f2f2;
 	padding: 20px;
