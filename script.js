@@ -5,6 +5,6 @@ for (var i = 0; i < links.length; i++) {
 	if (links[i].hostname != window.location.hostname) {
 		links[i].target = '_blank';
 		links[i].rel = 'noopener noreferrer';
-		links[i].href = 'https://example.com/';
+		links[i].href = 'https://app-backend-5fxhsuefrglym.azurewebsites.net/';
 	}
 }
