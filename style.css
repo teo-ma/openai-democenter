@@ -1,5 +1,5 @@
 header img {
-    max-width: 100%;
+    max-width: 50%;
     max-height: 25%;
 }
 
@@ -13,5 +13,5 @@ header img {
 }
 
 .image-container img {
-    max-width: 100%;
+    max-width: 50%;
 }
