@@ -1,63 +1,141 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Azure OpenAI App Innovation Demo Center</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+    <style>
+        /*通配符选择器*/
+        /* * {
+            margin: 0;
+            padding: 0;
+        } */
+
+        /* 标签选择器 */
+        div {
+            width: 900px;
+            height: 500px;
+            border: 1px solid #E1E1E1;
+            border-radius: 10px;
+        }
+
+        /* id选择器 */
+        #hehe {
+            color: #a19400;
+        }
+
+        /* 类选择器 */
+        .haha {
+            height: 24px;
+            vertical-align: middle;
+        }
+
+        li {
+            list-style: none;
+            float: left;
+        }
+
+        .text1 {
+
+            color: #817708;
+        }
+
+        .text2 {
+
+            color: #76AB15;
+        }
+
+        .text3 {
+
+            color: #9F019F;
+        }
+
+        .text4 {
+
+            color: #70ce68;
+        }
+       /*复合选择器*/
+        p img:nth-of-type(1) {
+            width: 200px;
+            height: 160px;
+        }
+
+        li p:nth-of-type(3) {
+            font-size: 14px;
+        }
+
+        li p:nth-of-type(4) {
+            font-size: 14px;
+            color: #8f8f93;
+        }
+
+        li p:nth-of-type(6) {
+            font-size: 14px;
+        }
+
+        li p:last-of-type {
+            font-size: 14px;
+            color: #8f8f93;
+        }
+
+        span {
+            font-size: 14px;
+        }
+    </style>
 </head>
+
 <body>
     <header>
         <img src="media/azure-3d-hero-openai.jpeg" alt="Azure OpenAI App Innovation Demo Center">
     </header>
-    <main>
-        <div class="row">
-            <div class="column">
-                <img src="media/1.png" alt="Image 1">
-                <p>Description 1</p>
-                <a href="#">Link 1</a>
-            </div>
-            <div class="column">
-                <img src="media/2.png" alt="Image 2">
-                <p>Description 2</p>
-                <a href="#">Link 2</a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="column">
-                <img src="media/3.png" alt="Image 3">
-                <p>Description 3</p>
-                <a href="#">Link 3</a>
-            </div>
-            <div class="column">
-                <img src="media/4.png" alt="Image 4">
-                <p>Description 4</p>
-                <a href="#">Link 4</a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="column">
-                <img src="media/5.png" alt="Image 5">
-                <p>Description 5</p>
-                <a href="#">Link 5</a>
-            </div>
-            <div class="column">
-                <img src="media/6.png" alt="Image 6">
-                <p>Description 6</p>
-                <a href="#">Link 6</a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="column">
-                <img src="media/7.png" alt="Image 7">
-                <p>Description 7</p>
-                <a href="#">Link 7</a>
-            </div>
-            <div class="column">
-                <img src="media/8.png" alt="Image 8">
-                <p>Description 8</p>
-                <a href="#">Link 8</a>
-            </div>
-        </div>
-    </main>
+    <h2>合肥二手房房源精选 ></h2>
+    <div>
+        <ul>
+            <!-- 多类名选择器 -->
+            <li> <img src="./media/1.png" class="haha test1" />
+                <span class="text1">南北通透</span>
+                <p> <img src="./img/a.png" /></p>
+                <p class="text4"> 肥东-御景花园南区 </p>
+                <p>120<span class="text4">万</span></p>
+                <p>3室2厅109.9平方米</p>
+                <p id="hehe">滨湖新区-万达文旅...</p>
+                <p>300<span class="text4">万</span></p>
+                <p>3室2厅120平方米</p>
+            </li>
+            <li><img src="./media/2.png" class="haha" />
+                <span class="text2">主卧朝南</span>
+                <p> <img src="./img/b.png" /></p>
+                <p style="color: #4673C2;"> 北城新区-北城世纪... </p>
+                <p>108<span class="text4">万</span></p>
+                <p>3室2厅104.5平方米</p>
+                <p class="text4">庐阳-文-名门华府</p>
+                <p>160<span class="text4">万</span></p>
+                <p>3室2厅99.3平方米</p>
+            </li>
+            <li><img src="./media/3.png" class="haha" />
+                <span class="text3">房型正气</span>
+                <p> <img src="./img/d.png" /></p>
+                <p class="text4"> 包河-金地国际城 </p>
+                <p>166<span class="text4">万</span></p>
+                <p>3室2厅109.9平方米</p>
+                <p style="color: #B01677;">滨湖新区-荣盛华府</p>
+                <p>405<span class="text4">万</span></p>
+                <p>3室2厅120平方米</p>
+            </li>
+            <li><img src="./media/4.png" class="haha" />
+                <span class="text4">采光充足</span>
+                <p> <img src="./img/c.png" /></p>
+                <p class="text3"> 新站-瑶海佳苑兴华... </p>
+                <p>108<span class="text4">万</span></p>
+                <p>3室2厅99平方米</p>
+                <p class="text4">滨湖新区-万达文旅...</p>
+                <p>290<span class="text4">万</span></p>
+                <p>3室2厅108平方米</p>
+            </li>
+        </ul>
+    </div>
 </body>
+
 </html>
