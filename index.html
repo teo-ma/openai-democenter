@@ -15,10 +15,11 @@
 
         /* 标签选择器 */
         div {
-            width: 900px;
-            height: 500px;
+            width: 2500px;
+            height: 800px;
             border: 1px solid #E1E1E1;
             border-radius: 10px;
+            text-align: center;
         }
 
         /* id选择器 */
@@ -40,11 +41,13 @@
         .text1 {
 
             color: #817708;
+            font-size: 20px;
         }
 
         .text2 {
 
             color: #76AB15;
+            font-size: 20px;
         }
 
         .text3 {
@@ -58,8 +61,8 @@
         }
        /*复合选择器*/
         p img:nth-of-type(1) {
-            width: 200px;
-            height: 160px;
+            width: 500px;
+            height: 440px;
         }
 
         li p:nth-of-type(3) {
@@ -88,52 +91,79 @@
 
 <body>
     <header>
-        <img src="media/azure-3d-hero-openai.jpeg" alt="Azure OpenAI App Innovation Demo Center">
+        <img src="./media/azure-3d-hero-openai.jpg" alt="Azure OpenAI App Innovation Demo Center">
     </header>
-    <h2>合肥二手房房源精选 ></h2>
+
     <div>
         <ul>
             <!-- 多类名选择器 -->
             <li> <img src="./media/1.png" class="haha test1" />
-                <span class="text1">南北通透</span>
-                <p> <img src="./img/a.png" /></p>
-                <p class="text4"> 肥东-御景花园南区 </p>
-                <p>120<span class="text4">万</span></p>
-                <p>3室2厅109.9平方米</p>
-                <p id="hehe">滨湖新区-万达文旅...</p>
-                <p>300<span class="text4">万</span></p>
-                <p>3室2厅120平方米</p>
+                <span class="text1">企业知识库智能搜索</span>
+                <p> <img src="./media/1.png" /></p>
+                <p><span class="text2"><a href="https://app-backend-5fxhsuefrglym.azurewebsites.net/">浏览demo</a></span></p>
+                <p class="text4"> Opena Chatgpt+Azure Cognitive Search </p>
+                <p><span class="text4">PDF等文档通过Azure Search智能索引，</span></p>
+                <p><span class="text4">并通过Azure Openai对结果做总结回复</span></p>
+                <p><span class="text4">您可以访问<a href="https://github.com/teo-ma/azure-search-openai-demo/">demo源代码</a>部署及定制您的专属应用</span></p>
+
             </li>
-            <li><img src="./media/2.png" class="haha" />
-                <span class="text2">主卧朝南</span>
-                <p> <img src="./img/b.png" /></p>
-                <p style="color: #4673C2;"> 北城新区-北城世纪... </p>
-                <p>108<span class="text4">万</span></p>
-                <p>3室2厅104.5平方米</p>
-                <p class="text4">庐阳-文-名门华府</p>
-                <p>160<span class="text4">万</span></p>
-                <p>3室2厅99.3平方米</p>
+
+            <li> <img src="./media/2.png" class="haha test1" />
+                <span class="text1">企业多模态数据知识库</span>
+                <p> <img src="./media/2.png" /></p>
+                <p><span class="text2"><a href="https://ocropenaiteo-site.azurewebsites.net/">浏览demo</a></span></p>
+                <p class="text4"> Openai embedding+Azure Form Recognizer </p>
+                <p><span class="text4">图片文字数据识别，通过Openai</span></p>
+                <p><span class="text4">embedding智能搜索和总结</span></p>         
+                <p><span class="text4">您可以访问<a href="https://github.com/teo-ma/azure-open-ai-embeddings-qna">demo源代码</a>部署及定制您的专属应用</span></p>
+
             </li>
-            <li><img src="./media/3.png" class="haha" />
-                <span class="text3">房型正气</span>
-                <p> <img src="./img/d.png" /></p>
-                <p class="text4"> 包河-金地国际城 </p>
-                <p>166<span class="text4">万</span></p>
-                <p>3室2厅109.9平方米</p>
-                <p style="color: #B01677;">滨湖新区-荣盛华府</p>
-                <p>405<span class="text4">万</span></p>
-                <p>3室2厅120平方米</p>
+            <li> <img src="./media/3.png" class="haha test1" />
+                <span class="text1">Chatgpt聊天机器人</span>
+                <p> <img src="./media/3.png" /></p>
+                <p><span class="text2"><a href="https://app-backend-5fxhsuefrglym.azurewebsites.net/">浏览demo</a></span></p>
+                <p class="text4"> Openai+Azure App Servcie </p>
+                <p><span class="text4">通用智能聊天机器人</span></p>
+                <p><span class="text4">通过ChatGPT获取信息</span></p>
+                <p><span class="text4">您可以访问<a href="https://github.com/teo-ma/azure-search-openai-demo/">demo源代码</a>部署及定制您的专属应用</span></p>
+
             </li>
-            <li><img src="./media/4.png" class="haha" />
-                <span class="text4">采光充足</span>
-                <p> <img src="./img/c.png" /></p>
-                <p class="text3"> 新站-瑶海佳苑兴华... </p>
-                <p>108<span class="text4">万</span></p>
-                <p>3室2厅99平方米</p>
-                <p class="text4">滨湖新区-万达文旅...</p>
-                <p>290<span class="text4">万</span></p>
-                <p>3室2厅108平方米</p>
+            <li> <img src="./media/4.png" class="haha test1" />
+                <span class="text1">Openai+Power Apps构建智能知识库</span>
+                <p> <img src="./media/4.png" /></p>
+                <p><span class="text2"><a href="https://powerplatformdemo.crm.dynamics.cn/main.aspx?appid=705df7fd-65c9-ed11-b597-0017fa027f2b">浏览demo</a></span></p>
+                <p class="text4"> Openai+Azure Cognitive Search </p>
+                <p><span class="text4">在Power Apps的帮助下，用户</span></p>
+                <p><span class="text4">引入自己的数据并与embedding模型进行交互</span></p>
+                <p><span class="text4">您可以访问<a href="https://microsoftapc.sharepoint.com/:x:/t/ChinaGPSCSATeam/EREyWCre8VdLgP05Vsl3WHQBdAfgB83zZMWeeKkYz3R6Kg?e=tzavgz&wdLOR=c61FAFA76-D19E-A44A-8F56-78424774AB15">demo源代码</a>部署及定制您的专属应用</span></p>
+
             </li>
+
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <!-- 多类名选择器 -->
+            <li> <img src="./media/1.png" class="haha test1" />
+                <span class="text1">企业知识库智能搜索</span>
+                <p> <img src="./media/1.png" /></p>
+                <a href="https://app-backend-5fxhsuefrglym.azurewebsites.net/">浏览demo</a>
+                <a href="https://github.com/teo-ma/azure-search-openai-demo/">访问demo源代码</a>
+                <p class="text4"> Openai+Azure Cognitive Search </p>
+                <p><span class="text4">PDF等文档通过Azure Search智能索引，</span></p>
+                <p><span class="text4">并通过Azure Openai对结果做总结回复</span></p>
+            </li>
+            <li> <img src="./media/1.png" class="haha test1" />
+                <span class="text1">企业知识库智能搜索</span>
+                <p> <img src="./media/1.png" /></p>
+                <a href="https://app-backend-5fxhsuefrglym.azurewebsites.net/">浏览demo</a>
+                <a href="https://github.com/teo-ma/azure-search-openai-demo/">访问demo源代码</a>
+                <p class="text4"> Openai+Azure Cognitive Search </p>
+                <p><span class="text4">PDF等文档通过Azure Search智能索引，</span></p>
+                <p><span class="text4">并通过Azure Openai对结果做总结回复</span></p>
+            </li>
+
+
         </ul>
     </div>
 </body>
